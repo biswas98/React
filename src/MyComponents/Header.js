@@ -2,10 +2,12 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <ul>
+    <>
+      <ul>
         <li>Home</li>
         <li>Contact</li>
-    </ul>
+      </ul>
+    </>
   );
 }
 
