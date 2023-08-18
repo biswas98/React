@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './MyComponents/Header';
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Header/>
+      <h1>Click</h1>
+      <a href="">
+        <span>+</span>
+      </a>
+      <a href="">
+        <span>-</span>
+      </a>
     </>
   );
-}  
+}
 
 export default App;
