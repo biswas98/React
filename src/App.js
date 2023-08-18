@@ -2,11 +2,10 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [incPresnt, setInc] = useState(0);
-  const [decPresnt, setDec] = useState(0);
+  const [change, setChange] = useState(0);
 
-  const increamentFunction = () => setInc(incPresnt + 5);
-  const decreamentFunction = () => setDec(decPresnt - 5);
+  const increamentFunction = () => setChange(change + 5);
+  const decreamentFunction = () => setChange(change - 5);
 
   return (
     <>
@@ -14,11 +13,11 @@ function App() {
         <h1 className="heading">Click</h1>
 
         <div>
-          <button>-</button>
+          <button onClick={decreamentFunction}>-</button>
 		
-          <input />
+          <input value={change}/>
 
-          <button>+</button>
+          <button onClick={increamentFunction}>+</button>
         </div>
       </div>
     </>
