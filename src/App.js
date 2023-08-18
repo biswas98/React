@@ -1,6 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 
+import DataPass  from './MyComponents/DataPass';
+
 function App() {
   const [change, setChange] = useState(0);
 
@@ -19,6 +21,9 @@ function App() {
 
           <button onClick={increamentFunction}>+</button>
         </div>
+
+		<DataPass name='bro is sexy'/>
+
       </div>
     </>
   );
