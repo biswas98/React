@@ -22,7 +22,7 @@ function App() {
           <button onClick={increamentFunction}>+</button>
         </div>
 
-		<DataPass name='bro is sexy'/>
+		<DataPass name='My name is Biplab' age='23' gender='f'/>
 
       </div>
     </>
