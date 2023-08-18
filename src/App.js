@@ -3,13 +3,17 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Click</h1>
-      <a href="">
-        <span>+</span>
-      </a>
-      <a href="">
-        <span>-</span>
-      </a>
+      <div className="container">
+        <h1 className="heading">Click</h1>
+
+        <div>
+          <a href="#">-</a>
+
+          <input />
+
+          <a href="#">+</a>
+        </div>
+      </div>
     </>
   );
 }
