@@ -1,6 +1,15 @@
 .apiContainer{
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.apiContainer input,button{
+    margin: 20px;
+}
+
+.apiContainer input{
+    width: 200px;
 }

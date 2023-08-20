@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import './apiStyle.css';
+
+const weatherAPI = () =>{
+
+}
+
 
 export default function () {
   return (
