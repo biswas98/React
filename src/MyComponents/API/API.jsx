@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react';
-import axios, { AxiosError } from 'axios';
+import axios from '../../axios';
 
 import './apiStyle.css';
 
-const API = 'https://cat-fact.herokuapp.com/facts';
 
-export default function () {
+export default function API() {
 
     const weatherAPI = async () => {
         try {
-            let response = await axios.get(API);
+            let response = await axios.get('/posts');
             console.log('successfull');
             // console.log(response.data[0].text);
 
