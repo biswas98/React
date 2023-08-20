@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 
+import './IncDecStyle.css'
+
 export default function IncDec() {
 
     const [change, setChange] = useState(0);
