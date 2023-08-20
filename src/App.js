@@ -5,7 +5,7 @@ import IncDec from "./MyComponents/PlusMinus/IncDec";
 function App() {
   return (
     <>
-     <IncDec />
+      <IncDec />
     </>
   );
 }
