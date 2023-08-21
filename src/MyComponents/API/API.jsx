@@ -1,19 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from '../../axios';
 
 import './apiStyle.css';
 
 
 export default function API() {
+    const [data, setData] = useState();
 
     const weatherAPI = async () => {
         try {
             let response = await axios.get('/posts');
-            console.log('successfull');
-            // console.log(response.data[0].text);
+            // console.log('successfull');
+            setData(response.data);
 
         } catch (error) {
-            console.log(error);
+            console.log(error.message);
         }
     }
 
@@ -21,7 +22,7 @@ export default function API() {
     useEffect(() => {
         weatherAPI();
     }, [])
-
+    
     return (
         <div className='apiContainer'>
             <div className="quotes">
