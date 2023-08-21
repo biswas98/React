@@ -6,10 +6,7 @@
     align-items: center;
 }
 
-.apiContainer input,button{
+.quotes{
     margin: 20px;
-}
-
-.apiContainer input{
-    width: 200px;
+    text-justify: auto;
 }
