@@ -38,6 +38,7 @@ export default function API() {
                         {
                             data.map((item,index) => {
                                 // console.log(item);
+                                
                                 return <div className="quotes">{item?.body}</div>
                             })
                         }
