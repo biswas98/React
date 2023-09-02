@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import exampleOne from "../../axios";
+import { exampleOne } from "../../axios";
 
 import "./apiStyle.css";
 
