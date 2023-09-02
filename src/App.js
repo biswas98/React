@@ -9,7 +9,7 @@ function App() {
     <>
       {/* <IncDec /> */}
       {/* <API /> */}
-      <Test/>
+      {/* <Test/> */}
     </>
   );
 }
