@@ -11,7 +11,7 @@ function App() {
     <>
       {/* <IncDec /> */}
       {/* <API /> */}
-      <Test/>
+      <Test name="Dude"/>
       {/* <ApiTwo /> */}
     </>
   );
