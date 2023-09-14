@@ -8,10 +8,10 @@ import ApiTwo from "./MyComponents/API/ApiTwo";
 function App() {
   return (
     <>
-      {/* <IncDec /> */}
-      {/* <API /> */}
+      <IncDec />
+      <API />
       <Test />
-      {/* <ApiTwo /> */}
+      <ApiTwo />
     </>
   );
 }
