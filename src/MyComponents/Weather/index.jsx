@@ -1,5 +1,7 @@
 import React from "react";
+require("dotenv").config();
 
 export default function Weather() {
-  return <div>{process.env.S3_BUCKET}</div>;
+  console.log(process.env.SECRET_KEY1);
+  return <div>Hello</div>;
 }
