@@ -33,7 +33,7 @@ export default function Weather() {
           wrapperStyle={{}}
           wrapperClass="dna-wrapper"
           ballColors={["#ff0000", "#00ff00", "#0000ff"]}
-          backgroundColor="#F4442E"
+          backgroundColor="#4fa94d"
         />
         <Puff
           height="80"
