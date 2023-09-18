@@ -1,5 +1,5 @@
 import React from "react";
-import { BallTriangle, FidgetSpinner } from "react-loader-spinner";
+import { BallTriangle, FidgetSpinner, Puff } from "react-loader-spinner";
 // require("dotenv").config();
 
 export default function Weather() {
@@ -26,6 +26,16 @@ export default function Weather() {
         wrapperClass="dna-wrapper"
         ballColors={["#ff0000", "#00ff00", "#0000ff"]}
         backgroundColor="#F4442E"
+      />
+      <Puff
+        height="80"
+        width="80"
+        radius={1}
+        color="#4fa94d"
+        ariaLabel="puff-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
       />
     </div>
   );
