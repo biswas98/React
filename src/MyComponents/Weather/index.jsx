@@ -1,5 +1,10 @@
 import React from "react";
-import { BallTriangle, FidgetSpinner, Puff } from "react-loader-spinner";
+import {
+  BallTriangle,
+  FidgetSpinner,
+  Puff,
+  InfinitySpin,
+} from "react-loader-spinner";
 // require("dotenv").config();
 
 import "./styles.css";
@@ -40,6 +45,7 @@ export default function Weather() {
           wrapperClass=""
           visible={true}
         />
+        <InfinitySpin width="200" color="#4fa94d" />
       </div>
     </div>
   );
