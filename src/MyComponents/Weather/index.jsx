@@ -1,6 +1,7 @@
 import React from "react";
 import { FidgetSpinner, Puff, InfinitySpin } from "react-loader-spinner";
 import { BallTriangleLoader } from "../Loaders/BallTriangleLoader";
+import { FidgetSpinnerLoader } from "../Loaders/FidgetSpinnerLoader";
 
 import "./styles.css";
 
@@ -9,16 +10,7 @@ export default function Weather() {
     <div className="bodyContainer">
       <div className="loaderContainer">
         <BallTriangleLoader />
-        <FidgetSpinner
-          visible={true}
-          height="80"
-          width="80"
-          ariaLabel="dna-loading"
-          wrapperStyle={{}}
-          wrapperClass="dna-wrapper"
-          ballColors={["#ff0000", "#00ff00", "#0000ff"]}
-          backgroundColor="#4fa94d"
-        />
+        <FidgetSpinnerLoader />
         <Puff
           height="80"
           width="80"
