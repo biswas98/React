@@ -1,30 +1,14 @@
 import React from "react";
-import {
-  BallTriangle,
-  FidgetSpinner,
-  Puff,
-  InfinitySpin,
-} from "react-loader-spinner";
-// require("dotenv").config();
+import { FidgetSpinner, Puff, InfinitySpin } from "react-loader-spinner";
+import { BallTriangleLoader } from "../Loaders/BallTriangleLoader";
 
 import "./styles.css";
 
 export default function Weather() {
-  //   console.log(process.env.SECRET_KEY1);
-  //need to implement .env
   return (
     <div className="bodyContainer">
       <div className="loaderContainer">
-        <BallTriangle
-          height={100}
-          width={100}
-          radius={5}
-          color="#4fa94d"
-          ariaLabel="ball-triangle-loading"
-          wrapperClass={{}}
-          wrapperStyle=""
-          visible={true}
-        />
+        <BallTriangleLoader />
         <FidgetSpinner
           visible={true}
           height="80"
