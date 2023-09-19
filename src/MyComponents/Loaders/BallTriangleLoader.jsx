@@ -1,7 +1,7 @@
 import React from "react";
 import { BallTriangle } from "react-loader-spinner";
 
-const BallTriangleLoader = () => {
+export const BallTriangleLoader = () => {
   return (
     <BallTriangle
       height={100}
@@ -15,5 +15,3 @@ const BallTriangleLoader = () => {
     />
   );
 };
-
-export default BallTriangleLoader;
