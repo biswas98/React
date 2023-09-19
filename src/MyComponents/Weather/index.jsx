@@ -1,8 +1,10 @@
 import React from "react";
-import { BallTriangleLoader } from "../Loaders/BallTriangleLoader";
-import { FidgetSpinnerLoader } from "../Loaders/FidgetSpinnerLoader";
-import { PuffLoader } from "../Loaders/PuffLoader";
-import { InfinitySpinLoader } from "../Loaders/InfinitySpinLoader";
+import {
+  BallTriangleLoader,
+  FidgetSpinnerLoader,
+  PuffLoader,
+  InfinitySpinLoader,
+} from "../Loaders/index";
 
 import "./styles.css";
 
