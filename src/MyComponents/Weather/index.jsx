@@ -4,7 +4,7 @@ import {
   FidgetSpinnerLoader,
   PuffLoader,
   InfinitySpinLoader,
-} from "../Loaders/index";
+} from "../Loaders/indexLoader";
 
 import "./styles.css";
 
