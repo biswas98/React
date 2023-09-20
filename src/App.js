@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <IncDec />
-      // <API />
-      // <Test />
-      // <ApiTwo />
+      {/* <API />
+      <Test />
+       <ApiTwo /> */}
       <Weather />
     </>
   );
