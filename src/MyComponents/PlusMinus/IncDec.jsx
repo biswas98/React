@@ -1,27 +1,25 @@
-import React from 'react'
-import { useState } from 'react';
+import React from "react";
+import { useState } from "react";
 
-import './IncDecStyle.css'
+import "./IncDecStyle.css";
 
 export default function IncDec() {
+  const [change, setChange] = useState(0);
 
-    const [change, setChange] = useState(0);
+  const increamentFunction = () => setChange(change + 5);
+  const decreamentFunction = () => setChange(change - 5);
 
-    const increamentFunction = () => setChange(change + 5);
-    const decreamentFunction = () => setChange(change - 5);
+  return (
+    <div className="container">
+      <h1 className="heading">Click</h1>
 
-    return (
-        <div className="container">
-            <h1 className="heading">Click</h1>
+      <div>
+        <button onClick={decreamentFunction}>-</button>
 
-            <div>
-                <button onClick={decreamentFunction}>-</button>
+        <input value={change} />
 
-                <input value={change} />
-
-                <button onClick={increamentFunction}>+</button>
-            </div>
-
-        </div>
-    )
+        <button onClick={increamentFunction}>+</button>
+      </div>
+    </div>
+  );
 }

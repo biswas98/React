@@ -9,10 +9,10 @@ import Weather from "./MyComponents/Weather/index";
 function App() {
   return (
     <>
-      {/* <IncDec />
-      <API />
-      <Test />
-      <ApiTwo /> */}
+      <IncDec />
+      // <API />
+      // <Test />
+      // <ApiTwo />
       <Weather />
     </>
   );
